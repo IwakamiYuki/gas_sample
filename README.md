@@ -14,6 +14,7 @@ Googleのデベロッパーブログに書いてあるこれを利用する
 GoogleのDevelopers Consoleからgappsで使うために*`OAuth2, その他のプロジェクト`*としてキーを発行する
 キー情報が含まれているJSONを落とすし、以下のコマンドで認証をする
 > $ gapps auth ./client_secret_<client_secret_key>.json
+
 表示されたURLを踏むと認証が完了するはず
 > Successfully Authenticated with Google Drive!
 
