@@ -19,7 +19,7 @@ GoogleのDevelopers Consoleからgappsで使うために*`OAuth2, その他の�
 > Successfully Authenticated with Google Drive!
 
 後は、GASのProject IDを指定してローカルに落としてくるだけ
-> $ gapps init <Project ID>
+> $ gapps init \<Project ID\>
 
 
 ## KEY等の管理
