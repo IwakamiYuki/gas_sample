@@ -5,7 +5,9 @@
 ### Google Apps Scriptをローカル環境に落とす
 
 git管理するために、GASのソースコードをローカルに落としてくる
+
 Googleのデベロッパーブログに書いてあるこれを利用する
+
 [Apps Script による高度な開発プロセス](https://googledevjp.blogspot.jp/2016/01/apps-script.html)
 
 以下のコマンドでインストールすることができる
