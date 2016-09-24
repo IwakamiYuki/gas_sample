@@ -1,4 +1,4 @@
-# Google Apps Scriptをgit管理するテスト
+# Google Apps Scriptをgit管理するサンプル
 
 ## git管理のための準備
 
