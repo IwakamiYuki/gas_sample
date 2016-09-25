@@ -30,7 +30,39 @@ Successfully Authenticated with Google Drive!
 ```bash
 $ gapps init <Project ID>
 ```
+## このgas_sampleを自分のGoogleドライブのGoogle Apps Scriptに反映させる
 
+### はじめに自分のGoogleドライブに空のGASプロジェクトを作成する
+
+Googleドライブ -> 新規 -> Google Apps Script
+ここでは*sample*という名前で作成した
+このときのProject IDを利用する
+
+### gas_sampleをローカルに落とす
+
+gitからクローンしてくる
+```bash
+$ git clone https://github.com/IwakamiYuki/gas_sample.git
+```
+
+### 作成したGASプロジェクト*sample*をローカルに落とす
+
+gappsコマンドを利用する
+```bash
+$ cd gas_sample/
+$ gapps init 1cJQNXp6bOZ9usDODrYYSDUhFT6OKkSYaC2vf9yBnejYqojx7RYyZ_IOZ
+```
+
+### Googleドライブ上に反映させる
+
+gas_sampleディレクトリの中身を見れば分かるが、このままuploadすればいい。この時、不要なファイルは削除しておく。
+```bash
+$ gapps upload
+Pushing back up to Google Drive...
+The latest files were successfully uploaded to your Apps Script project.
+```
+
+これで完了！
 
 ## KEY等の管理
 外部スプレッドシートを使ってKey等の管理をしてみた
