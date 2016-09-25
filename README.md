@@ -37,6 +37,8 @@ $ gapps init <Project ID>
 
 Googleドライブ -> 新規 -> Google Apps Script
 
+![image1](https://raw.githubusercontent.com/IwakamiYuki/gas_sample/master/image/image1.png)
+
 ここでは*sample*という名前で作成した
 
 このときのProject IDを利用する
@@ -67,5 +69,11 @@ The latest files were successfully uploaded to your Apps Script project.
 
 これで完了！
 
+![image2](https://raw.githubusercontent.com/IwakamiYuki/gas_sample/master/image/image2.png)
+
 ## KEY等の管理
-外部スプレッドシートを使ってKey等の管理をしてみた
+外部スプレッドシートを使ってKey等の管理をしている
+
+*src/config.js*のidを自分のGoogleドライブ上のスプレッドシートのIDに変更する必要がある。
+
+こうすることで、git上に載せたくない情報を外部のスプレッドシート上に持つことができた
