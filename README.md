@@ -18,7 +18,7 @@ $ npm install -g node-google-apps-script
 GoogleのDevelopers Consoleからgappsで使うために*`OAuth2, その他のプロジェクト`*としてキーを発行する
 キー情報が含まれているJSONを落とすし、以下のコマンドで認証をする
 ```bash
-$ gapps auth ./client_secret_\<client_secret_key>.json
+$ gapps auth ./client_secret_<client_secret_key>.json
 ```
 
 表示されたURLを踏むと認証が完了するはず
@@ -28,7 +28,7 @@ Successfully Authenticated with Google Drive!
 
 後は、GASのProject IDを指定してローカルに落としてくるだけ
 ```bash
-$ gapps init \<Project ID\>
+$ gapps init <Project ID>
 ```
 
 
