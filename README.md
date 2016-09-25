@@ -16,6 +16,7 @@ $ npm install -g node-google-apps-script
 ```
 
 GoogleのDevelopers Consoleからgappsで使うために*`OAuth2, その他のプロジェクト`*としてキーを発行する
+
 キー情報が含まれているJSONを落とすし、以下のコマンドで認証をする
 ```bash
 $ gapps auth ./client_secret_<client_secret_key>.json
@@ -35,7 +36,9 @@ $ gapps init <Project ID>
 ### はじめに自分のGoogleドライブに空のGASプロジェクトを作成する
 
 Googleドライブ -> 新規 -> Google Apps Script
+
 ここでは*sample*という名前で作成した
+
 このときのProject IDを利用する
 
 ### gas_sampleをローカルに落とす
@@ -50,7 +53,7 @@ $ git clone https://github.com/IwakamiYuki/gas_sample.git
 gappsコマンドを利用する
 ```bash
 $ cd gas_sample/
-$ gapps init 1cJQNXp6bOZ9usDODrYYSDUhFT6OKkSYaC2vf9yBnejYqojx7RYyZ_IOZ
+$ gapps init <Project ID>
 ```
 
 ### Googleドライブ上に反映させる
